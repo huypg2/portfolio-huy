@@ -1,13 +1,25 @@
 ---
-title: "Liên hệ"
+title: "Liên hệ công việc"
 url: "/contact"
+layout: "page"
+hidemeta: true
 draft: false
-layout: "contact"
+description: "Thông tin liên lạc của Phạm Gia Huy"
 ---
 
-Kết nối với tôi để trao đổi về các vấn đề Lập trình mạng hoặc Bảo mật:
+Nếu bạn có thắc mắc về các bài viết, đồ án môn học hoặc muốn hợp tác trong các dự án về **Lập trình mạng & Bảo mật**, hãy kết nối với tôi qua các kênh dưới đây:
 
-* 📧 **Email:** huypg113@gmail.com
-* 🐙 **GitHub:** https://github.com/huypg2/portfolio-huy
-* 💼 **Facebook:** https://www.facebook.com/pham.huy.494157?locale=vi_VN
-* 📍 **Địa chỉ:** TP. Hồ Chí Minh
+### 📬 Thông tin trực tiếp
+* **Email:** [huypg113@gmail.com](mailto:huypg113@gmail.com)
+* **Địa chỉ:** Khoa CNTT - Trường Đại Học Công Nghệ TP.HCM.
+
+---
+
+### 🌐 Mạng xã hội
+Bạn có thể xem code và các dự án của tôi tại:
+
+* **GitHub:** [github.com/huypg2](https://github.com/huypg2)
+* **Facebook:** [facebook.com/phamgiahuy]((https://www.facebook.com/pham.huy.494157?locale=vi_VN)
+
+---
+
