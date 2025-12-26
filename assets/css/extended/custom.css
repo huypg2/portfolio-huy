@@ -74,3 +74,33 @@
     background-color: #00ff00;
     color: #000;
 }
+/* --- STYLE CHO ẢNH ĐẠI DIỆN (AVATAR) --- */
+
+.profile img {
+    /* Tạo khung tròn */
+    border-radius: 50%; 
+    
+    /* Viền màu xanh lá (Hacker style) */
+    border: 3px solid #00ff00; 
+    
+    /* Tạo khoảng hở giữa ảnh và viền */
+    padding: 5px; 
+    
+    /* Hiệu ứng phát sáng (Glow) */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); 
+    
+    /* Hiệu ứng chuyển động mượt */
+    transition: all 0.6s ease-in-out;
+}
+
+/* Hiệu ứng khi di chuột vào ảnh */
+.profile img:hover {
+    /* Xoay 360 độ */
+    transform: rotate(360deg) scale(1.1); 
+    
+    /* Sáng rực rỡ hơn */
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.9), 0 0 50px rgba(0, 255, 0, 0.4);
+    
+    /* Đổi màu viền thành trắng */
+    border-color: #ffffff;
+}
