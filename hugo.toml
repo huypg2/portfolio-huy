@@ -31,18 +31,20 @@ theme = "PaperMod"
     name = "Trang chủ"
     url = "/"
     weight = 10
-  [[menu.main]]
+[[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/posts"
+    # Sửa dòng này: Thêm tên repo vào trước /posts
+    url = "/portfolio-huy/posts/" 
     weight = 20
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
     url = "/about"
     weight = 30
-  [[menu.main]]
+[[menu.main]]
     identifier = "contact"
     name = "Liên hệ"
-    url = "/contact"
+    # SỬA DÒNG NÀY: Thêm /portfolio-huy/ vào trước
+    url = "/portfolio-huy/contact/"
     weight = 40
