@@ -22,22 +22,27 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      
       - name: Download Theme
         run: |
           if [ ! -d "themes/PaperMod" ]; then
             git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth 1
           fi
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
+
       - name: Build
         run: hugo --minify --theme PaperMod
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+
   deploy:
     environment:
       name: github-pages
