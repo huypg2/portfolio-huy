@@ -1,30 +1,26 @@
-baseURL = "https://phamgiahuy.github.io/portfolio-huy/" 
+baseURL = "https://huypg2.github.io/portfolio-huy/"
 languageCode = "vi"
 title = "Huy Pham Security"
 theme = "PaperMod"
 
 [params]
-  defaultTheme = "dark" # Giao diện tối
+  defaultTheme = "dark"
   description = "Portfolio chia sẻ về Lập trình mạng & An Ninh Mạng"
   
   [params.profileMode]
     enabled = true
     title = "Phạm Gia Huy"
-    subtitle = "Cybersecurity Student | Network Engineer"
+    subtitle = "Sinh viên Năm 4 | Chuyên ngành An Ninh Mạng"
+    # Link ảnh đại diện (Thay bằng link ảnh thật của bạn nếu muốn)
     imageUrl = "https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
     imageTitle = "Avatar"
-    imageWidth = 120
-    imageHeight = 120
+    imageWidth = 150
+    imageHeight = 150
     buttons = [
         { name = "🔥 Dự án & Blog", url = "/posts" },
         { name = "👨‍💻 Hồ sơ năng lực", url = "/about" },
         { name = "📧 Liên hệ", url = "/contact" }
     ]
-    imageUrl = ""
-    
-    imageTitle = "Huy Pham Avatar"
-    imageWidth = 150  # Chỉnh to lên xíu cho đẹp (Mặc định 120)
-    imageHeight = 150
 
   [params.assets]
     disableHLJS = false
