@@ -16,39 +16,41 @@ theme = "PaperMod"
     imageWidth = 150
     imageHeight = 150
     buttons = [
-        { name = "🔥 Dự án & Blog", url = "/posts" },
-        { name = "👨‍💻 Hồ sơ năng lực", url = "/about" },
-        { name = "📧 Liên hệ", url = "/contact" }
+        # Sửa lại nút bấm ở trang chủ
+        { name = "🔥 Dự án & Blog", url = "/portfolio-huy/posts" },
+        { name = "👨‍💻 Hồ sơ năng lực", url = "/portfolio-huy/about" },
+        { name = "📧 Liên hệ", url = "/portfolio-huy/contact" }
     ]
 
   [params.assets]
     disableHLJS = false
 
-# --- ĐÂY LÀ ĐOẠN BẠN ĐANG BỊ THIẾU ---
+# --- Code sửa lỗi hiển thị khung chứng chỉ ---
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-# --------------------------------------
+# ---------------------------------------------
 
 [menu]
+  # SỬA LẠI TOÀN BỘ PHẦN NÀY
   [[menu.main]]
     identifier = "home"
     name = "Trang chủ"
-    url = "/"
+    url = "/portfolio-huy/"  # Thêm /portfolio-huy/
     weight = 10
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/posts"
+    url = "/portfolio-huy/posts/" # Thêm /portfolio-huy/
     weight = 20
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
-    url = "/about"
+    url = "/portfolio-huy/about/" # Thêm /portfolio-huy/
     weight = 30
   [[menu.main]]
     identifier = "contact"
     name = "Liên hệ"
-    url = "/contact"
+    url = "/portfolio-huy/contact/" # Thêm /portfolio-huy/
     weight = 40
