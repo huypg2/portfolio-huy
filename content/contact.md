@@ -1,6 +1,5 @@
 ---
 title: "Liên hệ công việc"
-url: "/contact"
 layout: "page"
 hidemeta: true
 draft: false
@@ -19,7 +18,6 @@ Nếu bạn có thắc mắc về các bài viết, đồ án môn học hoặc 
 Bạn có thể xem code và các dự án của tôi tại:
 
 * **GitHub:** [github.com/huypg2](https://github.com/huypg2)
-* **Facebook:** [facebook.com/phamgiahuy]((https://www.facebook.com/pham.huy.494157?locale=vi_VN)
+* **Facebook:** [facebook.com/phamgiahuy](https://www.facebook.com/pham.huy.494157?locale=vi_VN)
 
 ---
-
