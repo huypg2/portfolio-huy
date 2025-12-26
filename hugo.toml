@@ -24,28 +24,28 @@ theme = "PaperMod"
   [params.assets]
     disableHLJS = false
 
-# --- ĐÂY LÀ ĐOẠN QUAN TRỌNG BẠN BỊ THIẾU ---
+# --- ĐOẠN MỚI THÊM ĐỂ SỬA LỖI KHUNG CHỨNG CHỈ ---
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-# -------------------------------------------
+# ------------------------------------------------
 
 [menu]
   [[menu.main]]
     identifier = "home"
     name = "Trang chủ"
-    url = "/portfolio-huy/" # Sửa lại cho đúng repo
+    url = "/portfolio-huy/"
     weight = 10
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/portfolio-huy/posts/" 
+    url = "/portfolio-huy/posts/"
     weight = 20
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
-    url = "/portfolio-huy/about/" # Sửa lại cho đúng repo
+    url = "/portfolio-huy/about/"
     weight = 30
   [[menu.main]]
     identifier = "contact"
