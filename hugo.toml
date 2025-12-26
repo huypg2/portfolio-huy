@@ -1,0 +1,47 @@
+baseURL = "https://phamgiahuy.github.io/portfolio-huy/" 
+languageCode = "vi"
+title = "Huy Pham Security"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "dark" # Giao diện tối
+  description = "Portfolio chia sẻ về Lập trình mạng & An Ninh Mạng"
+  
+  [params.profileMode]
+    enabled = true
+    title = "Phạm Gia Huy"
+    subtitle = "Cybersecurity Student | Network Engineer"
+    imageUrl = "https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+    imageTitle = "Avatar"
+    imageWidth = 120
+    imageHeight = 120
+    buttons = [
+        { name = "🔥 Dự án & Blog", url = "/posts" },
+        { name = "👨‍💻 Hồ sơ năng lực", url = "/about" },
+        { name = "📧 Liên hệ", url = "/contact" }
+    ]
+
+  [params.assets]
+    disableHLJS = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Trang chủ"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "Về tôi"
+    url = "/about"
+    weight = 30
+  [[menu.main]]
+    identifier = "contact"
+    name = "Liên hệ"
+    url = "/contact"
+    weight = 40
