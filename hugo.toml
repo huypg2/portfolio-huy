@@ -1,6 +1,6 @@
 baseURL = "https://huypg2.github.io/portfolio-huy/"
 languageCode = "vi"
-title = "Huy Pham Security"
+title = "Huy Pham "
 theme = "PaperMod"
 
 [params]
