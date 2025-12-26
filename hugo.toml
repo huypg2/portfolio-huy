@@ -20,6 +20,11 @@ theme = "PaperMod"
         { name = "👨‍💻 Hồ sơ năng lực", url = "/about" },
         { name = "📧 Liên hệ", url = "/contact" }
     ]
+    imageUrl = ""
+    
+    imageTitle = "Huy Pham Avatar"
+    imageWidth = 150  # Chỉnh to lên xíu cho đẹp (Mặc định 120)
+    imageHeight = 150
 
   [params.assets]
     disableHLJS = false
