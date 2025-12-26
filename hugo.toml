@@ -11,40 +11,44 @@ theme = "PaperMod"
     enabled = true
     title = "Phạm Gia Huy"
     subtitle = "Sinh viên Năm 4 | Chuyên ngành An Ninh Mạng"
-    # Link ảnh đại diện (Thay bằng link ảnh thật của bạn nếu muốn)
     imageUrl = "https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
     imageTitle = "Avatar"
     imageWidth = 150
     imageHeight = 150
     buttons = [
-        { name = "🔥 Dự án & Blog", url = "/posts" },
-        { name = "👨‍💻 Hồ sơ năng lực", url = "/about" },
-        { name = "📧 Liên hệ", url = "/contact" }
+        { name = "🔥 Dự án & Blog", url = "/portfolio-huy/posts" },
+        { name = "👨‍💻 Hồ sơ năng lực", url = "/portfolio-huy/about" },
+        { name = "📧 Liên hệ", url = "/portfolio-huy/contact" }
     ]
 
   [params.assets]
     disableHLJS = false
 
+# --- ĐÂY LÀ ĐOẠN QUAN TRỌNG BẠN BỊ THIẾU ---
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+# -------------------------------------------
+
 [menu]
   [[menu.main]]
     identifier = "home"
     name = "Trang chủ"
-    url = "/"
+    url = "/portfolio-huy/" # Sửa lại cho đúng repo
     weight = 10
-[[menu.main]]
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    # Sửa dòng này: Thêm tên repo vào trước /posts
     url = "/portfolio-huy/posts/" 
     weight = 20
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
-    url = "/about"
+    url = "/portfolio-huy/about/" # Sửa lại cho đúng repo
     weight = 30
-[[menu.main]]
+  [[menu.main]]
     identifier = "contact"
     name = "Liên hệ"
-    # SỬA DÒNG NÀY: Thêm /portfolio-huy/ vào trước
     url = "/portfolio-huy/contact/"
     weight = 40
