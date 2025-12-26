@@ -16,7 +16,7 @@ theme = "PaperMod"
     imageWidth = 150
     imageHeight = 150
     buttons = [
-        # Sửa lại nút bấm ở trang chủ
+        # Nút ở trang chủ (Đã thêm portfolio-huy để chắc chắn chạy đúng)
         { name = "🔥 Dự án & Blog", url = "/portfolio-huy/posts" },
         { name = "👨‍💻 Hồ sơ năng lực", url = "/portfolio-huy/about" },
         { name = "📧 Liên hệ", url = "/portfolio-huy/contact" }
@@ -25,32 +25,37 @@ theme = "PaperMod"
   [params.assets]
     disableHLJS = false
 
-# --- Code sửa lỗi hiển thị khung chứng chỉ ---
+# --- Code hiển thị khung chứng chỉ đẹp ---
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-# ---------------------------------------------
+# ----------------------------------------
 
 [menu]
-  # SỬA LẠI TOÀN BỘ PHẦN NÀY
+  # --- SỬA MENU Ở ĐÂY ---
+  # Tất cả đều phải có chữ /portfolio-huy/ ở đằng trước
+  
   [[menu.main]]
     identifier = "home"
     name = "Trang chủ"
-    url = "/portfolio-huy/"  # Thêm /portfolio-huy/
+    url = "/portfolio-huy/"    # QUAN TRỌNG: Phải có dòng này
     weight = 10
+    
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/portfolio-huy/posts/" # Thêm /portfolio-huy/
+    url = "/portfolio-huy/posts/"
     weight = 20
+    
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
-    url = "/portfolio-huy/about/" # Thêm /portfolio-huy/
+    url = "/portfolio-huy/about/" # Sửa lỗi 404 cho nút Về tôi
     weight = 30
+    
   [[menu.main]]
     identifier = "contact"
     name = "Liên hệ"
-    url = "/portfolio-huy/contact/" # Thêm /portfolio-huy/
+    url = "/portfolio-huy/contact/"
     weight = 40
