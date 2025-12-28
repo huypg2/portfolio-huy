@@ -4,7 +4,7 @@ date: 2025-12-26T10:00:00+07:00
 draft: false
 tags: ["Theory", "Network"]
 cover:
-    image: "http://googleusercontent.com/image_collection/image_retrieval/907668934813350893_0"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLI_CJ9TiLPUR_JlLyn-nMM_UXGolYUkgEA&s"
     alt: "Data Transfer Network"
 ---
 
