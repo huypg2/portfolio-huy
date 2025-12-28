@@ -4,8 +4,8 @@ date: 2025-12-26T10:00:00+07:00
 draft: false
 tags: ["Theory", "Network"]
 cover:
-    image: "https://images.unsplash.com/photo-1607799275518-d6e690c7b0b1"
-    alt: "Data Transfer"
+    image: "http://googleusercontent.com/image_collection/image_retrieval/907668934813350893_0"
+    alt: "Data Transfer Network"
 ---
 
 ## 1. TCP (Transmission Control Protocol)
