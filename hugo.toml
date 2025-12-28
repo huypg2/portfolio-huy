@@ -39,13 +39,13 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "home"
     name = "Trang chủ"
-    url = ""    # QUAN TRỌNG: Phải có dòng này
+    pageRef = ""    # QUAN TRỌNG: Phải có dòng này
     weight = 10
     
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/posts/"
+    pageRef = "/posts/"
     weight = 20
     
   [[menu.main]]
@@ -57,5 +57,5 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "contact"
     name = "Liên hệ"
-    url = "/contact/"
+    pageRef = "/contact/"
     weight = 40
