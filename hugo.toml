@@ -51,7 +51,7 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
-    url = "/about/" # Sửa lỗi 404 cho nút Về tôi
+    url = "/about/" 
     weight = 30
     
   [[menu.main]]
