@@ -17,9 +17,9 @@ theme = "PaperMod"
     imageHeight = 150
     buttons = [
         # Nút ở trang chủ (Đã thêm portfolio-huy để chắc chắn chạy đúng)
-        { name = "🔥 Dự án & Blog", url = "/posts" },
-        { name = "👨‍💻 Hồ sơ năng lực", url = "/about" },
-        { name = "📧 Liên hệ", url = "/contact" }
+        { name = "🔥 Dự án & Blog", url = "/portfolio-huy/posts" },
+        { name = "👨‍💻 Hồ sơ năng lực", url = "/portfolio-huy/about" },
+        { name = "📧 Liên hệ", url = "/portfolio-huy/contact" }
     ]
 
   [params.assets]
