@@ -39,7 +39,7 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "home"
     name = "Trang chủ"
-    url = "/portfolio-huy/"    # QUAN TRỌNG: Phải có dòng này
+    url = ""    # QUAN TRỌNG: Phải có dòng này
     weight = 10
     
   [[menu.main]]
