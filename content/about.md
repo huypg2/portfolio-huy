@@ -17,17 +17,17 @@ Dưới đây là các chứng chỉ mạng tôi đã đạt được:
 
 <div class="cert-grid">
 <div class="cert-card">
-<span class="cert-title">Cisco Packet Tracer<br>(Introduction)</span>
+<span class="cert-title">Cisco Packet Tracer<br></span>
 <p style="font-size: 0.8em; color: #aaa;">NetworkingBasics</p>
 <a href="/portfolio-huy/certificates/PDF1.pdf" target="_blank" class="cert-btn">Xem chứng chỉ (PDF)</a>
 </div>
 <div class="cert-card">
-<span class="cert-title">Cisco Packet Tracer<br>(Essentials)</span>
+<span class="cert-title">Cisco Packet Tracer<br></span>
 <p style="font-size: 0.8em; color: #aaa;">JavaScriptEssentials1</p>
 <a href="/portfolio-huy/certificates/PDF2.pdf" target="_blank" class="cert-btn">Xem chứng chỉ (PDF)</a>
 </div>
 <div class="cert-card">
-<span class="cert-title">Cisco Packet Tracer<br>(Associate)</span>
+<span class="cert-title">Cisco Packet Tracer<br></span>
 <p style="font-size: 0.8em; color: #aaa;">JavaScriptEssentials2</p>
 <a href="/portfolio-huy/certificates/PDF3.pdf" target="_blank" class="cert-btn">Xem chứng chỉ (PDF)</a>
 </div>
