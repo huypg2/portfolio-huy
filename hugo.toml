@@ -45,17 +45,17 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    pageRef = "/posts/"
+    pageRef = "posts"
     weight = 20
     
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
-    url = "/about/" 
+    url = "about" 
     weight = 30
     
   [[menu.main]]
     identifier = "contact"
     name = "Liên hệ"
-    pageRef = "/contact/"
+    pageRef = "contact"
     weight = 40
