@@ -45,17 +45,17 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/portfolio-huy/posts/"
+    url = "/posts/"
     weight = 20
     
   [[menu.main]]
     identifier = "about"
     name = "Về tôi"
-    url = "/portfolio-huy/about/" # Sửa lỗi 404 cho nút Về tôi
+    url = "/about/" # Sửa lỗi 404 cho nút Về tôi
     weight = 30
     
   [[menu.main]]
     identifier = "contact"
     name = "Liên hệ"
-    url = "/portfolio-huy/contact/"
+    url = "/contact/"
     weight = 40
